@@ -16,7 +16,7 @@ export default function HomeShowcaseRow() {
         <AboutCard />
       </div>
 
-      <div className="col-span-3 flex flex-col overflow-hidden rounded-xl border border-white/[0.08] bg-white/[0.05] p-3 backdrop-blur-2xl">
+      <div className="col-span-3 flex flex-col overflow-hidden rounded-xl border border-white/8 bg-white/5 p-3 backdrop-blur-2xl">
         <div className="mb-2 flex items-center justify-between">
           <p className="text-[10px] font-semibold tracking-[0.15em] text-amber-400">FEATURED PROJECTS</p>
           <Link href="/projects" className="flex items-center gap-1 text-[10px] font-semibold tracking-wide text-amber-400">

@@ -3,7 +3,6 @@ export default function Stats() {
     { value: "1+", label: "YEARS EXPERIENCE" },
     { value: "15+", label: "PROJECTS COMPLETED" },
     { value: "10+", label: "TECHNOLOGIES" },
-    { value: "5★", label: "CLIENT REVIEWS" },
   ];
 
   return (

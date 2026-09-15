@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="max-w-2xl">
             <p className="text-[10px] tracking-[0.3em] text-gray-300 sm:text-sm [text-shadow:0_1px_4px_rgba(0,0,0,0.5)]">HI, I&apos;M</p>
             <h1 className="text-3xl font-black uppercase leading-none text-white [text-shadow:0_2px_8px_rgba(0,0,0,0.6)] sm:text-5xl xl:text-6xl">
-              PRABHU
+              PRABHU R
             </h1>
             <h2 className="mt-1 text-xs font-medium tracking-[0.15em] text-amber-400 sm:text-base">
               FULL STACK DEVELOPER

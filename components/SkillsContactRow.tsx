@@ -38,13 +38,12 @@ export default function SkillsContactRow() {
 
       {/* Contact CTA */}
       <div className="relative flex items-center overflow-hidden rounded-xl border border-white/8 bg-white/6 p-4 backdrop-blur-2xl">
-        <Image src="/images/contact-bg.jpg" alt="" fill className="object-cover opacity-40" />
         <div className="relative z-10">
           <p className="text-[10px] font-semibold tracking-[0.15em] text-amber-400">
             LET&apos;S BUILD SOMETHING AMAZING TOGETHER
           </p>
           <p className="mt-1 text-[10px] text-gray-300">
-            I&apos;m currently available for freelance work.
+            I&apos;m currently available for work.
           </p>
           <Link
             href="/contact"

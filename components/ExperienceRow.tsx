@@ -16,7 +16,7 @@ const milestones = [
 
 export default function ExperienceRow() {
   return (
-    <div className="flex h-full flex-col overflow-hidden rounded-xl border border-white/10 bg-white/[0.03] p-3 backdrop-blur-lg">
+    <div className="flex h-full flex-col overflow-hidden rounded-xl border border-white/3 p-3 backdrop-blur-lg">
       <div className="mb-2 flex items-center justify-between">
         <p className="text-[10px] font-semibold tracking-[0.15em] text-amber-400">
           EXPERIENCE
@@ -33,9 +33,9 @@ export default function ExperienceRow() {
         {milestones.map((m) => (
           <div
             key={m.role}
-            className="flex min-w-[220px] flex-1 items-start gap-2 rounded-lg border border-white/10 bg-black/20 p-2.5"
+            className="flex min-w-55 flex-1 items-start gap-2 rounded-lg border border-white/10 bg-black/20 p-2.5"
           >
-            <div className="mt-0.5 flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
+            <div className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
               <Briefcase size={12} />
             </div>
             <div>
